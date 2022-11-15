@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  AdjustmentsHorizontalIcon,
-  UserCircleIcon,
-} from "@heroicons/react/24/solid";
+import { AdjustmentsHorizontalIcon } from "@heroicons/react/24/solid";
 import { MagnifyingGlassCircleIcon } from "@heroicons/react/24/outline";
 
 const MobileHeader = () => {

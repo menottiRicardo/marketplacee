@@ -11,7 +11,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const isMobile = await getMobile();
-  console.log(isMobile);
+  
   if (isMobile == true) {
     return (
       <html lang="en">

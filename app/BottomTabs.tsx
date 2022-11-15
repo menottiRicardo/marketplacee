@@ -1,5 +1,9 @@
-import { UserCircleIcon, HomeIcon } from "@heroicons/react/24/outline";
-import { HeartIcon } from "@heroicons/react/24/solid";
+import {
+  UserCircleIcon,
+  HomeIcon,
+  HeartIcon,
+} from "@heroicons/react/24/outline";
+
 import React from "react";
 
 const BottomTabs = () => {
