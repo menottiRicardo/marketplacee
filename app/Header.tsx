@@ -1,6 +1,7 @@
 import React from "react";
-import { HeartIcon, UserCircleIcon } from "@heroicons/react/24/solid";
+import { UserCircleIcon } from "@heroicons/react/24/solid";
 import { MagnifyingGlassCircleIcon } from "@heroicons/react/24/outline";
+
 const Header = () => {
   return (
     <div className="px-2 flex items-center pt-2 sm:px-8 xl:px-20 md:pt-4 border-b pb-4 shadow-sm">
