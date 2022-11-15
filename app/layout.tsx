@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import { getSelectorsByUserAgent } from "react-device-detect";
+import BottomTabs from "./BottomTabs";
 import "./globals.css";
 import Header from "./Header";
 import MobileHeader from "./MobileHeader";
@@ -22,6 +23,7 @@ export default async function RootLayout({
         <body>
           <MobileHeader />
           {children}
+          <BottomTabs />
         </body>
       </html>
     );
