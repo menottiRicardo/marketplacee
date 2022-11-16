@@ -11,7 +11,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const isMobile = await getMobile();
-  
+
   if (isMobile == true) {
     return (
       <html lang="en">
@@ -22,7 +22,7 @@ export default async function RootLayout({
         <head />
         <body>
           <MobileHeader />
-          {children}
+          <div className="bg-gray-50 px-4 pt-4">{children}</div>
           <BottomTabs />
         </body>
       </html>

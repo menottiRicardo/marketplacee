@@ -1,10 +1,11 @@
-import Header from "./Header";
-
+import Card from "../components/cards/Card";
+import LatestDeals from "./Cars";
 
 export default function Home() {
   return (
     <div>
-      <h2>hola</h2>
+      {/* @ts-ignore */}
+      <LatestDeals />
     </div>
   );
 }
