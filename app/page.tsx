@@ -5,6 +5,7 @@ import CategoriesTab from "./CategoriesTab";
 export default function Home() {
   return (
     <div>
+      {/* @ts-ignore */}
       <CategoriesTab />
       {/* @ts-ignore */}
       <LatestDeals />
