@@ -1,4 +1,5 @@
 import { headers } from "next/headers";
+import { Suspense } from "react";
 import { getSelectorsByUserAgent } from "react-device-detect";
 import BottomTabs from "./BottomTabs";
 import "./globals.css";
@@ -20,9 +21,13 @@ export default async function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
         <head />
-        <body>
+        <body className="relative">
           <MobileHeader />
-          <div className="bg-gray-50 px-4 pt-4">{children}</div>
+          <Suspense fallback={<p>loading</p>}>
+            <div className="bg-gray-50 px-4 pt-4 overflow-y-auto h-[92vh] pb-20">
+              {children}
+            </div>
+          </Suspense>
           <BottomTabs />
         </body>
       </html>
