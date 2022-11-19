@@ -4,7 +4,7 @@ import { MagnifyingGlassCircleIcon } from "@heroicons/react/24/outline";
 
 const MobileHeader = () => {
   return (
-    <div className="px-2 flex items-center justify-between pt-2 sm:px-8 xl:px-20 md:pt-4 border-b pb-4 shadow-sm ">
+    <div className="px-2 flex items-center justify-between pt-2 sm:px-8 xl:px-20 md:pt-4 border-b pb-4 shadow-sm sticky top-0 z-10 bg-white">
       {/* search */}
 
       <div className="sm:w-10/12 w-[90%] rounded-full border flex justify-between p-2 shadow-md hover:shadow-lg transition-all ease-in ">

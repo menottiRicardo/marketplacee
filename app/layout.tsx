@@ -21,10 +21,10 @@ export default async function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
         <head />
-        <body className="relative">
+        <body className="">
           <MobileHeader />
           <Suspense fallback={<p>loading</p>}>
-            <div className="bg-gray-50 px-4 pt-4 overflow-y-auto h-[92vh] pb-20">
+            <div className="bg-gray-50 px-4 pt-4 pb-20">
               {children}
             </div>
           </Suspense>

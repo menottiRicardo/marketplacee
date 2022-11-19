@@ -8,7 +8,7 @@ import React from "react";
 
 const BottomTabs = () => {
   return (
-    <div className="absolute bottom-0 bg-white w-full h-16 border-t shadow-2xl">
+    <div className="fixed bottom-0 bg-white w-full h-16 border-t shadow-2xl">
       <div className=" h-full grid grid-cols-3 justify-items-center content-center">
         <div className="flex flex-col items-center font-bold text-primary-500">
           <HomeIcon className="w-5" />
